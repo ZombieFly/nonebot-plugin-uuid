@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nonebot-plugin-uuid"
+version = "0.1.0"
+description = "一个生成 uuid 的 Nonebot2 插件"
+authors = ["ZombieFly <xyzomfly@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nonebot_plugin_uuid"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = "^2.0.0b1"
+nonebot-adapter-onebot = "^2.2.1"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
