@@ -7,8 +7,8 @@ _✨ UUID 生成器 ✨_
 <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/ZombieFly/nonebot-plugin-uuid.svg" alt="license">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot-plugin-example">
-    <img src="https://img.shields.io/pypi/v/nonebot-plugin-example.svg" alt="pypi">
+<a href="https://pypi.python.org/pypi/nonebot-plugin-uuid">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-uuid.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
 

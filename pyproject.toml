@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-uuid"
-version = "0.1.0"
+version = "0.1.1"
 description = "一个生成 uuid 的 Nonebot2 插件"
 authors = ["ZombieFly <xyzomfly@gmail.com>"]
 license = "MIT"
