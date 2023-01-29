@@ -11,7 +11,9 @@ _✨ UUID 生成器 ✨_
     <img src="https://img.shields.io/pypi/v/nonebot-plugin-uuid.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
-
+<a href="https://wakatime.com/badge/user/c7a593a9-08b3-4b3a-96a4-89d3ed7cabd0/project/aad19e0e-a602-4bcb-ac31-b8e7886905d0">
+    <img src="https://wakatime.com/badge/user/c7a593a9-08b3-4b3a-96a4-89d3ed7cabd0/project/aad19e0e-a602-4bcb-ac31-b8e7886905d0.svg" alt="wakatime">
+</a>
 </div>
 
 
