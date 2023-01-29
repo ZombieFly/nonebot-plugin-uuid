@@ -2,6 +2,7 @@ from re import findall
 import uuid
 
 from nonebot.params import CommandArg
+from nonebot.plugin import PluginMetadata
 from nonebot import get_driver, on_command, on_keyword
 from nonebot.adapters.onebot.v11 import MessageSegment, Message, MessageEvent, Bot
 
@@ -61,3 +62,17 @@ def reply_out(msg_id: int, output: str) -> Message:
         Message
     """
     return MessageSegment.reply(id_=msg_id) + MessageSegment.text(output)
+
+
+__plugin_meta__ = PluginMetadata(
+    name="uuid生成器",
+    description="通过 uuid4 与 uuid5 生成 uuid ，并且支持去除快速短横线",
+    usage='''
+命令：
+    uuid - 使用 uuid4 生成一个标准 uuid
+    uuid5 种子 - 使用 uuid5 生成一个基于 种子 的 uuid
+    rhs - 回复一个消息，同时发送 rhs 命令，即可去除原消息中的短横线
+在线文档：
+    https://dev.zomfly.top/nonebot-plugin-uuid/''',
+    extra={"version": "0.1.2"}
+)
