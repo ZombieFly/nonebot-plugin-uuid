@@ -66,7 +66,7 @@ def reply_out(msg_id: int, output: str) -> Message:
 
 __plugin_meta__ = PluginMetadata(
     name="uuid生成器",
-    description="通过 uuid4 与 uuid5 生成 uuid ，并且支持去除快速短横线",
+    description="通过 uuid4 与 uuid5 生成 uuid ，并且支持快速去除短横线",
     usage='''
 命令：
     uuid - 使用 uuid4 生成一个标准 uuid
