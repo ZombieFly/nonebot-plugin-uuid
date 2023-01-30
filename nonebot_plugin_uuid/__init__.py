@@ -74,5 +74,5 @@ __plugin_meta__ = PluginMetadata(
     rhs - 回复一个消息，同时发送 rhs 命令，即可去除原消息中的短横线
 在线文档：
     https://dev.zomfly.top/nonebot-plugin-uuid/''',
-    extra={"version": "0.1.2"}
+    extra={"version": "0.1.4"}
 )
